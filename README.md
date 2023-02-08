@@ -28,8 +28,15 @@ options:
 ```
 
 ### Intersection between files
-By default, the script will create sets based on the lines of file, i. e., each line will be a different element in the set:
+By default, the script will create sets based on the lines of file, i. e., each line will be a different element in the set. As such, the intersect command will be create a list of common lines (i.e. elements) of both files provided:
 ```python
 >python set-tool.py --file1 teste_1.txt  --file2 teste_2.txt --inter
 Common elements:  ['18', '19', '20', '17', '11', '13', '12', '10', '15', '14', '16']
+```
+
+### Union of files
+This will show all the individualçy unique *lines* of both files
+```python
+>python set-tool.py --arquivo1 "teste_1.txt" --arquivo2 "teste_2.txt" --union
+Elementos únicos em ambos:  ['12', '16', '22', '4', '19', '7', '18', '10', '15', '28', '26', '9', '2', '11', '13', '29', '6', '21', '23', '25', '27', '24', '5', '20', '1', '3', '17', '14', '8']
 ```
