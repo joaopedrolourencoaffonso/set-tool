@@ -1,4 +1,7 @@
 # set-tool
+
+<p align="center"><img src="https://raw.githubusercontent.com/joaopedrolourencoaffonso/set-tool/main/logo.png" width="312" height="200"></p>
+
 Uma pequena ferramenta baseada em python para manipular conjuntos de forma simples e intuitiva.
 
 ## Como usar
