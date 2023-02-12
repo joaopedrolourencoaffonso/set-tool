@@ -41,7 +41,7 @@ Elementos em comum:  ['18', '19', '20', '17', '11', '13', '12', '10', '15', '14'
 Mostrará todas as *linhas* exclusivas individualmente de ambos os arquivos:
 ```bash
 >python set-tool.py --arquivo1 "teste_1.txt" --arquivo2 "teste_2.txt" --union
-All unique elements:  ['12', '16', '22', '4', '19', '7', '18', '10', '15', '28', '26', '9', '2', '11', '13', '29', '6', '21', '23', '25', '27', '24', '5', '20', '1', '3', '17', '14', '8']
+Elementos únicos em ambos:  ['12', '16', '22', '4', '19', '7', '18', '10', '15', '28', '26', '9', '2', '11', '13', '29', '6', '21', '23', '25', '27', '24', '5', '20', '1', '3', '17', '14', '8']
 ```
 
 ### Diferença (**difer12**, **difer21**)
