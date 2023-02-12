@@ -55,7 +55,7 @@ def main():
             print("File 1 elements: ",list(lista_1),"\n");
             
         if args.elementos2:
-            print("File 3 elements: ",list(lista_2),"\n");
+            print("File 2 elements: ",list(lista_2),"\n");
         
         if args.inter:
             print("Common elements: ", list(lista_1.intersection(lista_2)),"\n");
